@@ -57,15 +57,16 @@
         </div>
       </div>
     </nav>
-    <h2 class="heading" id="scroll-top">👋 Hi I am</h2>
+    <h2 class="heading" id="scroll-top">👋 Hi I'm</h2>
     <h1>Lujain Khatib</h1>
     <h3 class="mt-4">👩‍💻 Front-end developer, based in Jordan</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="main-link">Contact me</a>
+      <a href="about.html#contact" class="contact-link">Contact me</a>
       <a href="about.html" class="about-link">About me</a>
     </div>
     <div class="container mt-5">
       <div class="row mb-5">
+        <h2 class="mb-3 d-block d-sm-none">Yoga App</h2>
         <div class="col-sm-6 app-image">
           <img
             src="https://31ukq.csb.app/images/yoga.png"
@@ -74,7 +75,7 @@
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="text-start mb-3">Yoga App</h2>
+          <h2 class="text-start mb-3 d-none d-sm-block">Yoga App</h2>
           <p class="app-discription mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
@@ -85,8 +86,18 @@
         </div>
       </div>
       <div class="row mb-5">
+          <h2 class="text-sm-start text-center mb-3 d-block d-sm-none">Weather App</h2>
+        <!-- this image behaved differently when it's inside the main div element bellow in smaller screens,
+         putting it in its own column or div made it work as expected, other img elements had no issue-->
+          <div class="app-image d-block d-sm-none ">
+            <img
+                    src="https://31ukq.csb.app/images/weather.png"
+                    alt="Weather app screenshot"
+                    class="img-fluid"
+            />
+          </div>
         <div class="col-sm-6">
-          <h2 class="text-start mb-3">Weather App</h2>
+          <h2 class="text-sm-start text-center mb-3 d-none d-sm-block">Weather App</h2>
           <p class="app-discription mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
@@ -95,7 +106,7 @@
           </p>
           <a href="#scroll-top" class="main-link">Luanch Weather App</a>
         </div>
-        <div class="col-sm-6 app-image">
+        <div class="col-sm-6 app-image d-none d-sm-block">
           <img
             src="https://31ukq.csb.app/images/weather.png"
             alt="Weather app screenshot"
@@ -104,6 +115,7 @@
         </div>
       </div>
       <div class="row mb-5">
+        <h2 class="mb-3 d-block d-sm-none">Yoghurt App</h2>
         <div class="col-sm-6 app-image">
           <img
             src="https://31ukq.csb.app/images/yogurt.png"
@@ -112,7 +124,7 @@
           />
         </div>
         <div class="col-sm-6">
-          <h2 class="text-start mb-3">Yoghurt App</h2>
+          <h2 class="text-start mb-3 d-none d-sm-block">Yoghurt App</h2>
           <p class="app-discription mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel

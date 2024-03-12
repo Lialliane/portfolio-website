@@ -54,7 +54,7 @@ h3 {
   text-transform: capitalize;
 }
 
-.main-link {
+.main-link , .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -100,4 +100,35 @@ a:hover {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+      text-align: center;
+      font-size: 38px;
+  }
+  img {
+    object-fit: cover;
+    height: 80% !important;
+    width: 90%;
+    text-align: center;
+    margin: 0px 5%;
+  }
+  .app-discription{
+    text-align: center;
+    margin-top:10px;
+  }
+  .app-image{
+      height: 80% ;
+  }
+  .main-link{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 179px;
+  }
 }
